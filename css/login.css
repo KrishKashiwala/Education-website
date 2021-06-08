@@ -1,0 +1,20 @@
+.container{
+    margin-top : 5em;
+}
+.option{
+    display : flex;
+    width : 70%;
+    justify-content : space-around;
+    align-items : center;
+}
+#horizontal-line{
+    width : 30%;
+    height: 2px;
+    background:black;
+    opacity : 0.1;
+}
+
+.text-icon{
+    margin-right : 1.5em;
+    font-size : 1vw;
+}
