@@ -1,5 +1,14 @@
+html{
+    margin: 0px !important;
+    padding: 0px !important;
+    overflow-x: hidden;
+}
 body{
-    margin: 0;
+    margin: 0px !important;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    
 }
 .box5{
     width: 100%;
@@ -7,6 +16,10 @@ body{
     display: flex;
     padding-top: 20px;
 
+}
+.rightboxx{
+    display: flex;
+    flex-direction: row;
 }
 
 .left-box{
@@ -19,12 +32,12 @@ body{
     padding-bottom: 15px;
     border-bottom-style: solid;
     border-bottom-width: 3.1px;
-    border-bottom-color: red;
+    border-bottom-color:#E45858;
     width: fit-content;
 }
 
 .viewal{
-  background-color: #4CAF50;
+  background-color: #bbc1ec;
   border: none;
   color: black;
   padding: 13px 20px;
@@ -37,31 +50,33 @@ body{
   cursor: pointer;
 }
 .side-boxes{
-    width: 18%;
-    height: 250px;
+    width: 200px;
+    height: 210px;
     padding: 22px;
 
 }
 
 .image-box{
-    height: 250px;
+    height: 200px;
     position: relative;
 }
 
 .imagetxt{
     position:absolute;
     top: 50px;
-    color: #fff;
-    font-size: 15px;
+    font-family: 400;
+    color: #000;
+    font-size: 20px;
     visibility: hidden;
 }
+
 .conthandle{
     width: 100%;
     height: 50px;
     display: flex;
+    justify-content: center;
     position: absolute;
     top: 120px;
-    margin-left: 35px;
     visibility: hidden;
     
 }
@@ -75,16 +90,18 @@ body{
 .image-box p{
     text-align: center;
     margin: 10px;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 .image-box img{
-    width: 100%;
+    width: 200px;
     height: 200px;
     border-radius: 5px;
 }
 
 .handles:hover{
-    color: seagreen;
+    color: #000;
 }
 
 .image-box:hover .imagetxt{
@@ -147,9 +164,12 @@ body{
     padding: 18px;
 }
 
+.lowerhalf p{
+    font-size: 14px;
+}
 .cards i{
     position: absolute;
-    color: red;
+    color: #E45858;
     right: 5px;
     top: -5px;
 }
@@ -159,7 +179,7 @@ body{
 }
 .centerbox{
     margin: 10px;
-padding: 20px;
+    padding: 20px;
 }
 
 .conthandle2{
@@ -172,6 +192,9 @@ padding: 20px;
 .box7{
     display: flex;
     flex-direction: row;
+    background-color: #232946;
+    position: absolute;
+    
 }
 .box{
     width: 250px;
@@ -180,9 +203,22 @@ padding: 20px;
     margin-left:  25px;
 }
 
+.box h4{
+ color: #bbc1ec;
+}
+#clr{
+    color: #bbc1ec;
+}
+
+
+.box h2{
+    color: #fff;
+}
+
 ul{
     list-style-type: none;
     padding: 0px;
+    color: #bbc1ec;
 }
 li{
     font-size: 18px;
@@ -200,13 +236,14 @@ li{
 .two-box{
     display: flex;
     flex-direction: row;
-    height: 150px;
-    width: 400px;
-    z-index: 1;
-    margin-top: -60px;
+    height: 200px;
+    width: 500px;
+    z-index: 10;
+    margin-top: -100px;
     margin-left: auto;
     margin-right:auto;
-   
+   background-color: #232946;
+   position: relative;
 }
 
 .leftbox{
@@ -215,6 +252,7 @@ li{
     color: #232946;
     padding: 20px;
 }
+
 .rightbox{
     width: 50%;
     background-color: #232946;
@@ -222,8 +260,138 @@ li{
     padding: 20px;
 }
 
+.viewal1{
+    background-color: #232946;
+    border: none;
+    color: #fff;
+    padding: 13px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
 
+  .viewal2{
+    background-color: #bbc1ec;
+    border: none;
+    color: #000;
+    padding: 13px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
 
+  input[type=text]{
+      width: 120px;
+      height: 30px;
+      background-color: #232946;
+      border: 2px solid #bbc1ec;
+      
+  }
+
+  input[type=submit]{
+    width: 60px;
+    border: none;
+    height: 36px;
+    background-color: #bbc1ec;
+    color: #232946;
+    
+}
+@media screen and (max-width:480px) {
+
+    .rightboxx{
+        display: flex;
+        overflow-x: auto;
+    }
+
+    *::-webkit-scrollbar{
+        display: none;
+    }
+
+    .side-boxes{
+        width: 200px;
+        height: 200px;
+        padding: 5px;
+        
+    
+    }
+
+    .left-box{
+        padding: 10px;
+    }
+
+    .left-box h2{
+        margin: 10px;
+    }
+
+    .line {
+        padding-bottom: 10px;
+        width: fit-content;
+    }
+ 
+    .image-box img{
+        height: 200px;
+        width: 150px;
+    }
+
+    .card-box{
+        width: 60%;
+    }
+    
+    .cards{
+        width: 300px;
+        height: 170px;
+        margin: 10px;
+        border-radius: 5px;
+    }
+    
+    .two-box{
+        height: 150px;
+        width: 400px;
+        margin-top: -45px;      
+    }
+    
+    .leftbox{
+        padding: 10px;
+    }
+    
+    .rightbox{
+        padding: 10px;
+    }
+
+    .viewal1{
+        padding: 10px 18px;
+        font-size: 13px;
+        margin: 4px 2px;
+      }
+
+      .viewal2{
+        padding: 10px 18px;
+        font-size: 13px;
+        margin: 4px 2px;
+      }
+
+      .viewal{
+        padding: 10px 18px;
+        font-size: 15px;
+        margin: 5px 2px;
+      }
+
+      .box7{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+   
+    
+
+    
+}
 
 
 
