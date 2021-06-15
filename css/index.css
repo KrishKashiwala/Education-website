@@ -189,9 +189,13 @@ body{
     
 }
 
-.box7{
+.boxxx{
     display: flex;
     flex-direction: row;
+}
+
+.box7{
+   
     background-color: #232946;
     position: absolute;
     
@@ -255,7 +259,7 @@ li{
 
 .rightbox{
     width: 50%;
-    background-color: #232946;
+    background-color: #2b2c34;
     color: #fff;
     padding: 20px;
 }
@@ -285,7 +289,13 @@ li{
     margin: 4px 2px;
     cursor: pointer;
   }
-
+.copyright p{
+    align-items: baseline;
+    padding: 10px;
+    text-align: center;
+    color:#fff;
+    font-weight: 900;
+}
   input[type=text]{
       width: 120px;
       height: 30px;
@@ -382,7 +392,7 @@ li{
         margin: 5px 2px;
       }
 
-      .box7{
+      .boxxx{
         display: flex;
         flex-wrap: wrap;
     }
