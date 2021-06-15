@@ -1,15 +1,25 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    margin: 0;
+    margin: 0px !important;
+    width: 100% !important;
+    overflow-x: hidden !important;
+}
+html{
+    margin: 0px !important;
+    padding: 0px !important;
     overflow-x: hidden !important;
 }
 
+
 .box1{
+    width: 100%;
     display: flex;
     flex-direction: row;
     padding: 20px 50px 0px 50px;
     background-color: #fffffe;
 }
+
+
 
 .leftprt{
     width: 50%;
@@ -21,7 +31,7 @@ body{
 }
 
 .boxes{
-    width: 10vw;
+    width: 30%;
     background-color:#C0C0C0;
     text-align: center;
     margin-right: 15px;
@@ -34,7 +44,7 @@ body{
 }
 
 .boxes h4, p{
-    font-size: 2vh;
+    font-size: 15px;
 }
 
 .strtnw{
@@ -82,6 +92,44 @@ body{
     background-color: #A8A8A8;
 }
 
+@media screen and (max-width:480px) {
+    .box1{
+        padding: 0px;
+    }
+    .box1 h1{
+        font-size: 18px;
+    }
+    .leftprt{
+        padding: 0px;
+    }
+    .access{
+        display: flex;
+        margin-left: 3px;
+        overflow: scroll;
+    }
+    .boxes{
+        margin-right: 8px;
+        border-radius: 5px;
+    }   
+    .boxes h4, p{
+        font-size: 10px;
+    }
+    
+    .strtnw{
+        font-weight: 700;
+        padding: 8px 15px;
+        font-size: 10px;
+    }
+    video{
+        width: 230px;
+        height: 230px;
+    }
+    .preveiw{
+        top: 195px;
+    }
+
+}
+
 .box2{
     background-color: #E3E6F7;
 }
@@ -98,6 +146,7 @@ body{
 
 .box2 h2{
     text-align: center;
+    padding-top: 5px;
 }
 .box2 p{
     margin: 0;
@@ -132,6 +181,32 @@ body{
     visibility: visible;
 }
 
+
+
+@media screen and (max-width:480px){
+    
+    .vid{
+        margin-left: 10px;
+    }
+    
+    .indexlist{
+        margin-left: 30px;
+        
+    }   
+    .indexlist li{
+        padding: 8px;
+        font-size: 11px;
+       
+    }
+     
+    
+    
+}
+
+.box3 h3{
+    text-align: center;
+}
+
 .booox{
     display: flex;
     flex-direction: row;
@@ -150,9 +225,25 @@ body{
 
 }
 
-.box3 h3{
-    text-align: center;
+@media screen and (max-width:480px){
+    .box3 h3{
+        font-size: 16px;
+    }
+    .booox{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .boox{
+        width:250px;
+    }
+    .boox img{
+        height: 120px;
+        width: 150px;
+    }
+
 }
+
 
 .kym{
     display: flex;
@@ -202,6 +293,33 @@ body{
     margin-left: 200px;
 }
 
+@media screen and (max-width:480px){
+    .mentorimg img{
+        width: 140px;
+        height: 180px;
+    }    
+    .line {
+        padding-bottom: 15px;
+        border-bottom-style: solid;
+        border-bottom-width: 3.1px;
+        border-bottom-color:#E45858;
+        width: fit-content;
+    }
+    
+    .val{
+        font-weight: 700;
+        font-size: 12px;
+       
+    } 
+    .centerbox{
+        width: 200px;
+        padding: 0px;
+        margin-left: 20px;
+    }
+    
+    
+}
+
 .faqa{
     padding-bottom: 100px;
 }
@@ -229,12 +347,26 @@ body{
     padding: 5px;
     background-color: #bbc1ec;
     margin-top: 20px;
+    cursor: pointer;
 
 }
+
 
 .shwans{
     width: 400px;
     padding: 10px;
+    display: none;
+}
+
+@media screen and (max-width:480px){
+    .questions{
+        flex-direction: column;
+
+    }
+    .shwans h5, p{
+        font-size: 14px;
+    }
+    
 }
 
 /*footer part **/
@@ -268,7 +400,9 @@ body{
     color: #fff;
 }
 
-
+.boxxx{
+    width: 100%;
+}
 
 .box7 ul{
     list-style-type: none;
@@ -368,6 +502,43 @@ body{
     
 }
 
+@media screen and (max-width:480px){
+    .two-box{
+        height: 150px;
+        width: 400px;
+        margin-top: -45px;      
+    }
+    
+    .leftbox{
+        padding: 10px;
+    }
+    
+    .rightbox{
+        padding: 10px;
+    }
 
+    .viewal1{
+        padding: 10px 18px;
+        font-size: 13px;
+        margin: 4px 2px;
+      }
+
+      .viewal2{
+        padding: 10px 18px;
+        font-size: 13px;
+        margin: 4px 2px;
+      }
+
+      .viewal{
+        padding: 10px 18px;
+        font-size: 15px;
+        margin: 5px 2px;
+      }
+
+      .boxxx{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 
 
