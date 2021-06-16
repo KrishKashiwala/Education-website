@@ -10,72 +10,109 @@
 			crossorigin="anonymous" referrerpolicy="no-referrer" />
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
-		<link rel="stylesheet" href="../css/corsedtail.css">
+		<link rel="stylesheet" href="../css/index.css">
 		<link rel="stylesheet" href="../css/payment.css">
 		<title>Payment Gateway</title>
 	</head>
 
 	<body>
-		<div class="payment_container">
-			<h4>Start Your 14 days free trial</h4>
-			<span>No Commitment , cancel anytime</span>
-			<div class="options">
-				<div style="margin-right : 1em;">
-					<input type="radio" name="" id="">
-					<label for="">Credit/Debit</label>
-				</div>
-				<div>
-					<input type="radio" name="" id="">
-					<label for="">Netbanking</label>
-				</div>
-			</div>
-			<div class="card">
-				<div class="in_card">
-					<span>Card Number</span>
-					<div>
-						<img src="../images/mastercard.svg" alt="">
-						<img src="../images/visa.svg" alt="">
+
+		<div class="upper_container">
+			<div class="payment_container">
+				<h4>Start Your 14 days free trial</h4>
+				<span>No Commitment , cancel anytime</span>
+				<div class="options">
+					<div style="margin-right : 1em;">
+						<input type="radio" name="" id="">
+						<label for="">Credit/Debit</label>
 					</div>
-				</div>
-				<input id="inputs" type="text" name="" placeholder="Enter your Card Number" id="">
-			</div>
-			<div class="expiry">
-				<div class="in_expiry">
-					<span>Expiry Date</span>
-					<input class="col-md-9" type="week" name="" id="">
-				</div>
-				<div class="in_expiry">
-					<span>Security Code</span>
-					<input class="col-md-9" type="number" name="" id="">
-				</div>
-			</div>
-			<span style="margin-top : 1em;">Pick a plan to start after trial</span>
-			<div class="payment_options">
-				<div class="monthly_special">
 					<div>
 						<input type="radio" name="" id="">
-						<label for="">$5/monthly</label>
+						<label for="">Netbanking</label>
 					</div>
-					<small style="margin-left : 1em;">$25 billed annually</small>
 				</div>
-				<div style="margin-left : 6.5em;">
-					<input type="radio" name="" id="">
-					<label for="">Netbanking</label>
+				<div class="card">
+					<div class="in_card">
+						<span>Card Number</span>
+						<div>
+							<img src="../images/mastercard.svg" alt="">
+							<img src="../images/visa.svg" alt="">
+						</div>
+					</div>
+					<input id="inputs" type="text" name="" placeholder="Enter your Card Number"
+						id="">
 				</div>
-			</div>
-			<div>
-				<span>How did you first hear about Educore?</span>
-				<select style="margin-top : 1em;" class="form-control col-md-9" name="" id="">
-					<option value="Select..." disabled>Select...</option>
-					<option class="form-control" value="Facebook">Facebook</option>
-					<option class="form-control" value="Friends">Friends</option>
-				</select>
-			</div>
-			<button style="margin-top : 1em;" class="extra" type="submit">Submit</button>
+				<div class="expiry">
+					<div class="in_expiry">
+						<span>Expiry Date</span>
+						<input class="form-control special" type="week" name="" id="">
+					</div>
+					<div class="in_expiry">
+						<span>Security Code</span>
+						<input class="form-control special" type="number" name="" id="">
+					</div>
+				</div>
+				<span style="margin-top : 1em;">Pick a plan to start after trial</span>
+				<div class="payment_options">
+					<div class="monthly_special">
+						<div>
+							<input type="radio" name="" id="">
+							<label for="">$5/monthly</label>
+						</div>
+						<small style="margin-left : 1em;">$25 billed annually</small>
+					</div>
+					<div style="margin-left : 6.5em;">
+						<input type="radio" name="" id="">
+						<label for="">Netbanking</label>
+					</div>
+				</div>
+				<div>
+					<span>How did you first hear about Educore?</span>
+					<select style="margin-top : 1em;" class="form-control col-md-9" name="" id="">
+						<option value="Select..." disabled>Select...</option>
+						<option class="form-control" value="Facebook">Facebook</option>
+						<option class="form-control" value="Friends">Friends</option>
+					</select>
+				</div>
+				<button style="margin-top : 1em;" class="btn extra" type="submit">Submit</button>
 
 
+			</div>
+			<div class="privileges">
+				<h3>Educore Premium priviliges</h3>
+				<div class="privileges_options">
+					<div class="image_text">
+						<img src="../images/video.svg" style="width : 5em;" alt="">
+						<span style="width : 8em;margin-left : 1em;" for="">Unlimited access of
+							tons of
+							access</span>
+					</div>
+					<span class="options_text">Explore
+						courses as
+						many as you
+						want, totally
+						ad-free</span>
+				</div>
+				<div class="privileges_options">
+					<div class="image_text">
+						<img src="../images/users.svg" style="width : 5em;" alt="">
+						<span style="width : 8em;margin-left : 1em;" for="">Quality
+							Members</span>
+					</div>
+					<span class="options_text">Professionals
+						in design , music , marketing, programming and more.</span>
+				</div>
+				<div class="privileges_options">
+					<div class="image_text">
+						<img src="../images/access.svg" style="width : 5em;" alt="">
+						<span style="width : 8em;margin-left : 1em;" for="">Offline access to
+							the sessions</span>
+					</div>
+					<span class="options_text">Download
+						sessions to your mobile devices or desktops</span>
+				</div>
+			</div>
 		</div>
-
 		<footer class="box7">
 			<div class="boxxx">
 				<div class="box">
