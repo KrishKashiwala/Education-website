@@ -1,0 +1,51 @@
+body
+{ 
+	max-width: 100%;
+   overflow-x: hidden;
+   margin: 0px;
+
+}
+.head-top
+{
+	height: 30px;
+	width: 100%;
+	background-color: #cef1f2;
+	border-radius: 3px;
+	
+	text-align: center;
+
+}
+.h5
+{
+
+	color: black;
+	font: bold;
+}
+.navbar
+{
+	height: 50px;background-color:blueviolet;
+    z-index: 10;
+	width: 100%;
+}
+
+ #myNavbar {
+      background-color: rgb(229, 228, 226);
+    }
+ @media screen and (max-width: 449px) {
+      .myheight {
+        height: 100px;
+      }
+
+.col-sm-6
+@media screen and (max-width: 449px) {
+      .myheight {
+      	overflow-x: hidden;
+        height: 100px;
+      }
+
+
+
+
+
+
+
