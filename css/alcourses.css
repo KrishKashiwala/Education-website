@@ -112,6 +112,10 @@ nav ul li a{
     
 }
 
+#col{
+    color:#fff;
+}
+
 .courselist{
     width: fit-content;
     margin: 0 auto;
