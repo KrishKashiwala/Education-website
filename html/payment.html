@@ -12,11 +12,14 @@
 		<link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
 		<link rel="stylesheet" href="../css/index.css">
 		<link rel="stylesheet" href="../css/payment.css">
+		<link rel="stylesheet" href="../css/header.css">
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
 		<title>Payment Gateway</title>
 	</head>
 
 	<body>
-
+		<!--  nav bar -->
 		<div class="upper_container">
 			<div class="payment_container">
 				<h4>Start Your 14 days free trial</h4>
@@ -181,6 +184,18 @@
 		</footer>
 
 
+		<script>
+			const block = document.querySelector('.alrt')
+			const cancel = document.querySelector('.fa-times-circle-o')
+			cancel.addEventListener('click', () => {
+				block.style.display = 'none'
+			})
+			function myfuntion() {
+				var navbar = document.getElementById('section');
+				navbar.classList.toggle('show');
+			}
+
+		</script>
 
 	</body>
 
