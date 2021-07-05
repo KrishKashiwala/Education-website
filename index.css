@@ -1,0 +1,407 @@
+html{
+    margin: 0px !important;
+    padding: 0px !important;
+    overflow-x: hidden;
+}
+body{
+    margin: 0px !important;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.box5{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    padding-top: 20px;
+
+}
+.rightboxx{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-box{
+    width: 30%;
+    height: fit-content;
+    padding: 25px;
+}
+
+.line {
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    border-bottom-color:#E45858;
+    width: fit-content;
+}
+
+.viewal{
+  background-color: #bbc1ec;
+  border: none;
+  color: black;
+  padding: 13px 20px;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.side-boxes{
+    width: 200px;
+    height: 210px;
+    padding: 22px;
+
+}
+
+.image-box{
+    height: 200px;
+    position: relative;
+}
+
+.imagetxt{
+    position:absolute;
+    top: 50px;
+    font-family: 400;
+    color: #000;
+    font-size: 20px;
+    visibility: hidden;
+}
+
+.conthandle{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 120px;
+    visibility: hidden;
+    
+}
+
+.handles{
+    padding: 8px;
+    color: #fff;
+}
+
+
+.image-box p{
+    text-align: center;
+    margin: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.image-box img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.handles:hover{
+    color: #000;
+}
+
+.image-box:hover .imagetxt{
+    visibility: visible;
+}
+.image-box:hover .conthandle{
+    visibility: visible;
+}
+
+.box6{
+    width: 100%;
+    height: 700px;
+    background-color: #e3e6f7;
+    display: flex;
+    
+}
+
+.card-box{
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.cards{
+    width: 300px;
+    height: 200px;
+    background-color: #bbc1ec;
+    position: relative;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.upperhalf{
+    width: 100%;
+    height: 30%;
+    padding: 25px;
+    display: flex;
+}
+
+.upperhalf img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.nam h2,h4{
+    margin: 0;
+}
+
+.nam{
+    margin-left: 20px;
+    text-align: center;
+}
+
+.lowerhalf{
+    margin-top: -30px;
+    padding: 18px;
+}
+
+.lowerhalf p{
+    font-size: 14px;
+}
+.cards i{
+    position: absolute;
+    color: #E45858;
+    right: 5px;
+    top: -5px;
+}
+
+.text-box2{
+    align-self: center;
+}
+.centerbox{
+    margin: 10px;
+    padding: 20px;
+}
+
+.conthandle2{
+    width: fit-content;
+    height: 50px;
+    display: flex;
+    
+}
+
+.boxxx{
+    display: flex;
+    flex-direction: row;
+}
+
+.box7{
+   
+    background-color: #232946;
+    position: absolute;
+    
+}
+.box{
+    width: 250px;
+    padding: 100px 20px 20px 20px;
+    overflow: hidden;
+    margin-left:  25px;
+}
+
+.box h4{
+ color: #bbc1ec;
+}
+#clr{
+    color: #bbc1ec;
+}
+
+
+.box h2{
+    color: #fff;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    color: #bbc1ec;
+}
+li{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.handles2{
+    background-color: #bbc1ec;
+    border-radius: 50%;
+    margin: 3px;
+    padding: 7px;
+    color:black;
+}
+
+.two-box{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 500px;
+    z-index: 10;
+    margin-top: -100px;
+    margin-left: auto;
+    margin-right:auto;
+   background-color: #232946;
+   position: relative;
+}
+
+.leftbox{
+    width: 50%;
+    background-color: #bbc1ec;
+    color: #232946;
+    padding: 20px;
+}
+
+.rightbox{
+    width: 50%;
+    background-color: #2b2c34;
+    color: #fff;
+    padding: 20px;
+}
+
+.viewal1{
+    background-color: #232946;
+    border: none;
+    color: #fff;
+    padding: 13px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .viewal2{
+    background-color: #bbc1ec;
+    border: none;
+    color: #000;
+    padding: 13px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.copyright p{
+    align-items: baseline;
+    padding: 10px;
+    text-align: center;
+    color:#fff;
+    font-weight: 900;
+}
+  input[type=text]{
+      width: 120px;
+      height: 30px;
+      background-color: #232946;
+      border: 2px solid #bbc1ec;
+      
+  }
+
+  input[type=submit]{
+    width: 60px;
+    border: none;
+    height: 36px;
+    background-color: #bbc1ec;
+    color: #232946;
+    
+}
+@media screen and (max-width:480px) {
+
+    .rightboxx{
+        display: flex;
+        overflow-x: auto;
+    }
+
+    *::-webkit-scrollbar{
+        display: none;
+    }
+
+    .side-boxes{
+        width: 200px;
+        height: 200px;
+        padding: 5px;
+        
+    
+    }
+
+    .left-box{
+        padding: 10px;
+    }
+
+    .left-box h2{
+        margin: 10px;
+    }
+
+    .line {
+        padding-bottom: 10px;
+        width: fit-content;
+    }
+ 
+    .image-box img{
+        height: 200px;
+        width: 150px;
+    }
+
+    .card-box{
+        width: 60%;
+    }
+    
+    .cards{
+        width: 300px;
+        height: 170px;
+        margin: 10px;
+        border-radius: 5px;
+    }
+    
+    .two-box{
+        height: 150px;
+        width: 400px;
+        margin-top: -45px;      
+    }
+    
+    .leftbox{
+        padding: 10px;
+    }
+    
+    .rightbox{
+        padding: 10px;
+    }
+
+    .viewal1{
+        padding: 10px 18px;
+        font-size: 13px;
+        margin: 4px 2px;
+      }
+
+      .viewal2{
+        padding: 10px 18px;
+        font-size: 13px;
+        margin: 4px 2px;
+      }
+
+      .viewal{
+        padding: 10px 18px;
+        font-size: 15px;
+        margin: 5px 2px;
+      }
+
+      .boxxx{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+   
+    
+
+    
+}
+
+
+

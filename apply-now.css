@@ -1,0 +1,159 @@
+body{
+	background : whitesmoke;
+}
+.container{
+	width : 70%;
+	padding : 2em;
+}
+.des{
+	display : flex;
+	flex-direction: column;
+	justify-content : center;
+	align-items : center;
+	margin-bottom : 1em;
+}
+
+.sub-container{
+	display : flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding : 2em;
+}
+#textField{
+	display : flex;
+	align-items: flex-start;
+	flex-direction : column;
+	margin-left : 10.4rem;
+}
+#divText{
+    border: ridge 2px;
+    padding: 10px;
+    min-height: 5em;
+    overflow: auto;
+     width:42.5rem;
+}
+.footer{
+	display : flex;
+	flex-direction : column;
+}
+
+.extra{
+    display : flex;
+    width : 20em;
+    background :#B8C1EC; 
+    justify-content: center;
+    margin-left : 23em;
+    margin-top : 1em;
+}
+a , a:hover{
+	text-decoration: none;
+	color : red;
+}
+@media (max-width : 410px){
+	
+	h3{
+		font-size : 1em;
+	}
+	.des{
+		margin-left : -3rem;
+	}
+	.sub-container{
+		display : flex;
+		flex-direction : column;
+		margin-left : -5rem;
+	}
+	#aftereffect{
+		width : 10rem;
+	}
+	.left-container{
+		width : 100%;
+		justify-content : space-between;
+		align-items: flex-start;
+	}
+	#textField{
+		width : 100%;
+		margin-left : -3em;
+	}
+	#divText{
+		max-width: 15rem;
+	}
+	.footer{
+		margin-left : -3rem;
+	}
+	.extra{
+		margin-left : -0.5em;
+		width : 10em;
+	}
+}
+@media (max-width : 810px){
+	
+	h3{
+		font-size : 1em;
+	}
+	.des{
+		margin-left : -3rem;
+	}
+	.sub-container{
+		display : flex;
+		flex-direction : column;
+		margin-left : -5rem;
+	}
+	#aftereffect{
+		width : 10rem;
+	}
+	.left-container{
+		width : 100%;
+		justify-content : space-between;
+		align-items: flex-start;
+	}
+	#textField{
+		width : 100%;
+		margin-left : -3em;
+	}
+	#divText{
+		max-width: 15rem;
+	}
+	.footer{
+		margin-left : -3rem;
+	}
+	.extra{
+		margin-left : -0.5em;
+		width : 10em;
+	}
+}
+@media (max-width : 1200px){
+	
+	h3{
+		font-size : 1em;
+	}
+	.des{
+		margin-left : -3rem;
+	}
+	.sub-container{
+		display : flex;
+		flex-direction : column;
+		margin-left : -5rem;
+	}
+	#aftereffect{
+		width : 10rem;
+	}
+	.left-container{
+		width : 100%;
+		justify-content : space-between;
+		align-items: flex-start;
+	}
+	#textField{
+		width : 100%;
+		margin-left : -3em;
+	}
+	#divText{
+		max-width: 15rem;
+	}
+	.footer{
+		margin-left : -3rem;
+	}
+	.extra{
+		margin-left : -0.5em;
+		width : 10em;
+	}
+}

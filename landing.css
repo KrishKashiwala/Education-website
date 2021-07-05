@@ -1,0 +1,242 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+        }
+/* SECTION-1 */
+
+.head-poster{
+   width: 100%;
+   height:30rem;
+   background: white;
+   color: black;
+   animation: tap 1s forwards ease-in;
+}
+.head-first,.head-second{
+   float: left;
+   width:50%;
+   height: inherit; 
+
+}
+.half-circle{
+   width:100%;
+   height: 100%;
+   border-radius:0% 0% 100% 0% ;
+   background: #E5E5E5;
+   color: #232946;
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   justify-content: center;
+   align-items:flex-start;
+   padding: 12%;
+}
+
+
+.half-circle p {
+   color: #2B2C34;
+}
+.half-circle button, .extra{
+                    background: #B8C1EC;
+                    padding: 1rem 2rem;
+                    border: none;
+                    box-shadow: red;
+}
+.head-second{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+            }
+        .image img{
+            width: 100%;
+            height: 100%;
+           object-fit: cover;
+            }
+.image{
+        width: 80%;
+        height: 90%;
+}
+@keyframes tap {
+   0%{
+       opacity:0.1;
+    transform:translate(-50%,-50%);
+   }
+   
+    100%{
+        opacity:1;
+        transform:translate(0%,0%);
+    }
+}
+
+
+ /* SECTION-2*/
+
+ .gallary{
+    width: 100%;
+    max-height:auto;
+    background: #f4f5fa; 
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.images-content,.gallary-content{
+                width: 50%;
+                height: 100%;
+                padding: 3%;
+                display: flex;
+                justify-content: center;
+                align-items:center;
+}
+.gallary-imges{
+    width:70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:repeat(3,33%);
+    grid-gap: 1%;
+}
+.gallary-content{
+    flex-direction: column;
+} 
+.gallary-content h1{
+    margin-bottom:5%;
+    
+}
+.grid-second{
+            grid-row: 3/4;
+           
+}
+.grid-second,.grid-first{
+    box-shadow: -15px 15px 3px rgba(184, 193, 236, 0.4);
+}
+.grid-third{
+    grid-row: 2/3;
+    grid-column:2/3;
+    box-shadow: 15px 15px 3px  rgba(184, 193, 236, 0.4);
+}
+.gallary-imges img {
+                    width: 100%;
+                    height: 100%;
+                   
+}
+.underline{
+    text-underline-offset:0.5rem;
+    text-decoration: underline red;
+}
+.gallary-content p span{
+    font-weight: bold;
+}
+.figures{
+        width: 100%;
+        padding: 2%;
+        margin-top: 10%;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+}
+.figures h3{
+    padding: 5%;
+}
+#heading
+{
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+    color: #232946;
+}
+/* SECTION-3*/
+.skills{
+    width: 100%;
+    max-height:auto;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content:center;
+    align-items: center;
+}
+.enhance-skills
+{
+    width: 40%;
+    height: 100%;
+    padding:3%;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items:flex-start;
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.skills-images{
+    width:60%;
+    height: inherit;
+    padding:3%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills-images-main{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content:space-evenly;
+}
+.griding{
+    width:33%;
+    height: 100%;
+    padding: 1%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.griding img{
+    width: 100%;
+    height: 100%;
+}
+/* MEDIA QUERIES */
+ @media screen and (max-width:768px)
+ {
+     .head-second
+     {
+         display: none;
+     }
+     .head-first{
+         width:100%;
+     }
+     /* SECTION-2 */
+     .gallary{
+         flex-direction: column;
+     }
+     
+     .images-content,.gallary-content{
+         width:80%;
+     }
+     .images-content{
+        order: 2;
+    }
+    .figures h3{
+    padding: 5%;
+    font-size:3vw;
+    }
+    /* SECTION-3 */
+    .skills{
+        flex-direction: column;
+    }
+    .enhance-skills,.skills-images{
+        width:100%;
+    }
+
+ }
