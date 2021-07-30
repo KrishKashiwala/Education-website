@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+        integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="../css/corsedtail.css">
+    <title>Course Detail</title>
+</head>
+
+<body>
+
+    <div class="box1">
+        <div class="leftprt">
+            <h1> Basic Skills/ Beginning With Drawing</h1>
+            <div class="access">
+                <div class="boxes">
+                    <img src="../images/stopwatch.png">
+                    <h4>Duration</h4>
+                    <h4>10 Hours</h4>
+                </div>
+                <div class="boxes">
+                    <img src="../images/stopwatch.png">
+                    <h4>Duration</h4>
+                    <h4>10 Hours</h4>
+                </div>
+                <div class="boxes">
+                    <img src="../images/stopwatch.png">
+                    <h4>Duration</h4>
+                    <h4>10 Hours</h4>
+                </div>
+            </div>
+            <p>Free access for a limited period of time</p>
+            <button class="strtnw">Start Now</button>
+        </div>
+        <div class="rigtprt">
+            <div class="video">
+                <video width="300" height="340" poster="../images/Preview.png">
+                    <source src="../images/Preview.png" type="video/mp4">
+                </video>
+                <div id="play"><i class="far fa-play-circle fa-3x"></i></div>
+                <div class="preveiw">Preview</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="box2">
+        <h2>Course Modules</h2>
+        <div class="dis">
+            <div class="vid">
+                <video width="500" height="340" poster="../images/Video Player.svg">
+                    <source src="../images/Video Player.svg" type="video/mp4">
+                </video>
+                <p><img src="../images/Enrolled Students.svg"> 1080 Students Enrolled to this course </p>
+
+            </div>
+            <div class="indexlist">
+                <h3>9 Sessions (10 hours)</h3>
+                <ul>
+                    <li id="lst"><i id="ply" class="fas fa-play-circle"></i> 1. Introduction</li>
+                    <li id="lst"><i id="ply" class="fas fa-play-circle"></i> 2. Basic shapes</li>
+                    <li id="lst"><i id="ply" class="fas fa-play-circle"></i> 3. Shading</li>
+                    <li id="lst"><i id="ply" class="fas fa-play-circle"></i> 4. Drawing in perspective</li>
+                    <li id="lst"><i id="ply" class="fas fa-play-circle"></i> 5. Two point perspective</li>
+                    <li id="lst"><i id="ply" class="fas fa-play-circle"></i> 6. Characters</li>
+                    <li id="lst"><i id="ply" class="fas fa-play-circle"></i> 7. Human Faces</li>
+                    <li id="lst"><i id="ply" class="fas fa-play-circle"></i> 8. Cartoon Characters</li>
+                    <li id="lst"><i id="ply" class="fas fa-play-circle"></i> 9. Portraits</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <div class="box3">
+        <h3>What You Will Learn?</h3>
+        <div class="booox">
+            <div class="boox">
+                <img src="../images/Rectangle 124.png">
+                <h4>Character Drawing</h4>
+                <p>In this Course you will learn how to draw different Characters.</p>
+            </div>
+            <div class="boox">
+                <img src="../images/Rectangle 125.png">
+                <h4>Cartoon Character</h4>
+                <p>You will learn how to draw Cartoon Characters</p>
+            </div>
+            <div class="boox">
+                <img src="../images/Rectangle 126.png">
+                <h4>Portraits</h4>
+                <p>In the end of this Course you will be able to draw Portraits.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="kym">
+        <div class="mentorimg">
+            <img id="im" src="../images//Doodle.svg">
+            <img src="../images/Image.png">
+        </div>
+        <div class="abmentr">
+            <div class="centerbox">
+                <h2 class="line">Know Your Mentor</h2>
+                <h4>Kelly Adwards</h4>
+                <p> Professional Sketch artist who creates drawings, sketchs and portraits. Plus professional
+                    Illustrator</p>
+                <button class="val">Know More</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="faqa">
+        <h2>frequently Asked Questions</h2>
+        <div class="questions">
+            <div class="leftside">
+                <div id="que" onclick="ask();" class="recbox">what skills do i need to enroll this course? <i
+                        class="fas fa-chevron-right" id="fas"></i></div>
+                <div id="que" class="recbox">what will i learn in this course? <i class="fas fa-chevron-right"></i>
+                </div>
+                <div id="que" class="recbox">How long it will take to finish this course? <i
+                        class="fas fa-chevron-right"></i></div>
+                <div id="que" class="recbox">How long will i have access to the material? <i
+                        class="fas fa-chevron-right"></i></div>
+
+            </div>
+            <div id="shwans" class="shwans">
+                <h5>What skills do i need to enroll this course?</h5>
+                <p>Every course has been designed for people who have
+                    little to no experience in drawing. All you need is
+                    the desire to learn and the dedication to excel.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="box7">
+        <div class="boxxx">
+            <div class="box">
+                <h2>Educore.</h2>
+                <p id="clr">Experience the best pedagogy with this E-learning platform.</p>
+                <div class="conthandle2">
+                    <div class="handles2">
+                        <i class="fab fa-github fa-2x"></i>
+                    </div>
+                    <div class="handles2">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </div>
+                    <div class="handles2">
+                        <i class="fab fa-twitter fa-2x"></i>
+                    </div>
+                    <div class="handles2">
+                        <i class="fab fa-linkedin-in fa-2x"></i>
+                    </div>
+                </div>
+
+            </div>
+            <div class="box">
+                <h2>Courses</h2>
+                <ul>
+                    <li>All courses <i class="fas fa-angle-right"></i></li>
+                    <li>Design <i class="fas fa-angle-right"></i></i></li>
+                    <li>Programming <i class="fas fa-angle-right"></i></li>
+                    <li>Music <i class="fas fa-angle-right"></i></li>
+                    <li>Marketing <i class="fas fa-angle-right"></i></li>
+                    <li>Photography <i class="fas fa-angle-right"></i></li>
+                    <li>Architecture <i class="fas fa-angle-right"></i></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h2>About Educore</h2>
+                <ul>
+                    <li>About us</li>
+                    <li>Blog</li>
+                    <li>Our Service</li>
+                    <li>Terms and Conditions</li>
+                    <li>Careers</li>
+                    <li>Privacy</li>
+                </ul>
+            </div>
+            <div class="box">
+                <h2>Contact us</h2>
+                <h4>888-999-111-0</h4>
+                <h4>educore.support@gmail.com</h4>
+            </div>
+            <div class="box">
+                <h2>Subscribe to our <br>Newsletter</h2>
+                <input type="text" placeholder="Enter Your Email" name="mail"><input type="submit" value="Submit">
+            </div>
+        </div>
+        <div class="copyright">
+            <p> © Copyright 2021 Educore </p>
+        </div>
+
+    </footer>
+
+    <div class="two-box">
+        <div class="leftbox">
+            <h3>Want be a<br> Mentor?</h3>
+            <button class="viewal1">Apply Now <i class="fas fa-arrow-right"></i></button>
+
+        </div>
+        <div class="rightbox">
+            <h3>Want to Discover<br>Courses?</h3>
+            <button class="viewal2">Enroll Now <i class="fas fa-arrow-right"></i></button>
+        </div>
+
+    </div>
+
+</body>
+<script src="../js/corsedtail.js"></script>
+
+</html>
